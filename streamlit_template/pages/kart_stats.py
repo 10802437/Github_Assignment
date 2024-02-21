@@ -7,7 +7,7 @@ st.sidebar.markdown("# Kart Configurations 🏎️")
 st.write("What Kart Configuration is Best?")
 
 
-df_kart = pd.read_csv('data/kart_stats.csv')
+df_kart = pd.read_csv('streamlit_template/data/kart_stats.csv')
 
 #st.write(df_racer) Body,Weight,Acceleration,
 #Standard Kart,2,4,3,3,4,3,3,3,3,3,2,3,3
